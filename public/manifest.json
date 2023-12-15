@@ -1,6 +1,6 @@
 {
-  "short_name": "Ionic App",
-  "name": "My Ionic App",
+  "short_name": "WebdriverIO Demo App",
+  "name": "WebdriverIO Demo App",
   "icons": [
     {
       "src": "assets/icon/favicon.png",
