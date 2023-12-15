@@ -1,0 +1,7 @@
+{
+  "name": "WebdriverIO Demo Application",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
