@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test.unit": "vitest",
+    "test.unit": "wdio run ./wdio.conf.ts",
     "lint": "eslint"
   },
   "dependencies": {
@@ -21,7 +21,6 @@
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
     "ionicons": "^7.0.0",
-    "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^5.3.4",
     "react-router-dom": "^5.3.4"
@@ -30,20 +29,24 @@
     "@capacitor/cli": "5.6.0",
     "@capacitor/ios": "^5.6.0",
     "@testing-library/dom": ">=7.21.4",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^14.4.3",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-legacy": "^5.0.0",
-    "@vitejs/plugin-react": "^4.0.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@wdio/browser-runner": "^8.26.1",
+    "@wdio/cli": "^8.26.1",
+    "@wdio/mocha-framework": "^8.24.12",
+    "@wdio/spec-reporter": "^8.24.12",
     "eslint": "^8.35.0",
     "eslint-plugin-react": "^7.32.2",
-    "jsdom": "^22.1.0",
+    "react": "^18.2.0",
     "terser": "^5.4.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.1.6",
-    "vite": "^5.0.0",
-    "vitest": "^0.34.6"
+    "vite": "^5.0.0"
   },
   "description": "An Ionic project"
 }
